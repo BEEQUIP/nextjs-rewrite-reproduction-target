@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   basePath: '/blog',
   assetPrefix: '/blog',
-  trailingSlash: true,
+  trailingSlash: false,
 };
 
 export default nextConfig;
